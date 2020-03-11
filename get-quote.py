@@ -1,11 +1,4 @@
-def primary():
-    
-
-  f = open("quotes.txt")
-  quotes = f.readlines()
-  f.close()
-
-  print(quotes[13])
-
-if __name__== "__main__":
-  primary()
+pip install quotes
+from quotes import random
+if __name__ == '__main__'
+    print(random())
